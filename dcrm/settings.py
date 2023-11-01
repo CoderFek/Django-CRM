@@ -76,13 +76,13 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'elderco',
-        'USER': 'root',
-        'PASSWORD': 'praveen2043',
-        'HOST': 'localhost',
-        'PORT': '3306',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "crm_db_rh8p",
+        "USER": "crm_db_rh8p_user",
+        "PASSWORD": "APAJ4gki04sQxgqqRy9czmbaeiYfrlBJ",
+        "HOST": "dpg-cl1850f5b13s73flm2n0-a",
+        "PORT": "5432",
     }
 }
 
